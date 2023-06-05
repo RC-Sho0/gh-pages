@@ -10,8 +10,10 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 1, name: locale.NAV.SEARCH, to: '/search', show: true},
-    { id: 2, name: locale.NAV.EXPERIMENT, to: '/experiment' , show: true},
+    { id: 1, name: locale.NAV.PUBLICATION, to: '/tag/Publication' , show: true},
+    { id: 2, name: locale.NAV.SEARCH, to: '/search', show: true},
+    { id: 2, name: locale.NAV.RESUME, to: 'https://drive.google.com/file/d/1XeQAMiJFKwxCXbcIrPjjfZW_cp-XeSnp/view?usp=sharing', show: true},
+
 
   ]
   return (
