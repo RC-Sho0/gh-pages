@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Hoang Son-VoThanh',
+  title: 'Hoang Son-Vo Thanh',
   author: 'Sho',
   email: 'hoangson.vothanh@gmail.com',
   link: 'https://sonvth.vercel.app/About',
@@ -17,11 +17,11 @@ const BLOG = {
   showAbout: true,
   showArchive: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://photos.app.goo.gl/HSDCDNSrYqAEHfzZ8', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://lh3.googleusercontent.com/pw/AJFCJaWoGA0m1zqboIy3nPsOmR5Gv3SUao57xchATINDz99sX0unxHX3R-I67DCHWPVeoKmiXHY8IC2fNdkCTAES-8fMrOK5y7fGaHm-pJTQid0Mk91yi7TIY2L4GcGIKOA2TnR9urqbLcVxWRO6FQht4QNu=w1390-h1390-s-no?authuser=0', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.facebook.com/rc.sho0',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation'],
-    googleSiteVerification: 'google9101ca37e42d1165.html' // Remove the value or replace it with your own google site verification code
+    keywords: ['Blog', 'Website', 'Notion','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation', 'Hoang Son-Vo Thanh'],
+    googleSiteVerification: 'google9101ca37e42d1165' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
