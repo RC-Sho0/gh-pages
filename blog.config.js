@@ -2,7 +2,7 @@ const BLOG = {
   title: 'sowwn',
   author: 'Sho',
   email: 'hoangson.vothanh@gmail.com',
-  link: 'sowwn.dev',
+  link: 'https://www.sowwn.dev',
   description: 'On the road become a data scienctist',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Bangkok', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
