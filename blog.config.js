@@ -21,7 +21,7 @@ const BLOG = {
   socialLink: 'https://www.facebook.com/rc.sho0',
   seo: {
     keywords: ['Blog', 'sowwn', 'Website', 'Notion','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation', 'Hoang Son-Vo Thanh'],
-    googleSiteVerification: 'Fhnfx7nkN-8Gb5VWT9Wi0A_jto1QPulr6U7LK0' // Remove the value or replace it with your own google site verification code
+    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
