@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'sowwn',
-  author: 'Sho',
+  author: 'Hoang Son-Vo Thanh',
   email: 'hoangson.vothanh@gmail.com',
   link: 'https://www.sowwn.dev',
   description: 'On the road become a data scienctist',
