@@ -15,7 +15,7 @@ const BLOG = {
   postsPerPage: 7,
   sortByDate: true,
   showAbout: true,
-  showArchive: false,
+  showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://lh3.googleusercontent.com/pw/AJFCJaWoGA0m1zqboIy3nPsOmR5Gv3SUao57xchATINDz99sX0unxHX3R-I67DCHWPVeoKmiXHY8IC2fNdkCTAES-8fMrOK5y7fGaHm-pJTQid0Mk91yi7TIY2L4GcGIKOA2TnR9urqbLcVxWRO6FQht4QNu=w1390-h1390-s-no?authuser=0', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.facebook.com/rc.sho0',
@@ -26,14 +26,14 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-DEZ1SKYWWB' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
