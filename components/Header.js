@@ -12,8 +12,8 @@ const NavBar = () => {
     { id: 0, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 1, name: locale.NAV.PUBLICATION, to: '/tag/Publication' , show: true},
     { id: 2, name: locale.NAV.SEARCH, to: '/search', show: true},
-    { id: 2, name: locale.NAV.RESUME, to: '/resume', show: true},
-
+    { id: 3, name: locale.NAV.RESUME, to: '/resume', show: true},
+    { id: 4, name: locale.NAV.RSS, to: '/feed', show: true },
 
   ]
   return (
