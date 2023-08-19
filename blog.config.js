@@ -6,7 +6,7 @@ const BLOG = {
   description: 'On the road become a data scienctist',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Bangkok', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  appearance: 'dark', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#fffefc', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://lh3.googleusercontent.com/pw/AJFCJaWoGA0m1zqboIy3nPsOmR5Gv3SUao57xchATINDz99sX0unxHX3R-I67DCHWPVeoKmiXHY8IC2fNdkCTAES-8fMrOK5y7fGaHm-pJTQid0Mk91yi7TIY2L4GcGIKOA2TnR9urqbLcVxWRO6FQht4QNu=w1390-h1390-s-no?authuser=0', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.facebook.com/rc.sho0',
   seo: {
-    keywords: ['Blog', 'sowwn', 'Website', 'Notion','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation', 'Hoang Son-Vo Thanh'],
+    keywords: ['AI Blog', 'sowwn', 'Python', 'AI tutorial','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation', 'Hoang Son-Vo Thanh', 'Son Hoang Vo-Thanh'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
