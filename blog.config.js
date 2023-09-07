@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://lh3.googleusercontent.com/pw/AJFCJaWoGA0m1zqboIy3nPsOmR5Gv3SUao57xchATINDz99sX0unxHX3R-I67DCHWPVeoKmiXHY8IC2fNdkCTAES-8fMrOK5y7fGaHm-pJTQid0Mk91yi7TIY2L4GcGIKOA2TnR9urqbLcVxWRO6FQht4QNu=w1390-h1390-s-no?authuser=0', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.facebook.com/rc.sho0',
   seo: {
-    keywords: ['AI Blog', 'sowwn', 'Python', 'AI tutorial','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation', 'Hoang Son-Vo Thanh', 'Son Hoang Vo-Thanh'],
+    keywords: ['AI Blog', 'sowwn', 'Python', 'AI tutorial','Hoàng Sơn','AI Engineer','Brain Tumor Segmentation', 'Võ Thành Hoàng Sơn', 'Son Hoang Vo-Thanh', 'LLM', 'Chat GPT', 'Midjourney'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
