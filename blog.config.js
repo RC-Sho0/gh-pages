@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'sowwn.dev',
+  title: 'sowwn',
   author: 'Hoang Son-Vo Thanh',
   email: 'hoangson.vothanh@gmail.com',
   link: 'https://www.sowwn.dev',
