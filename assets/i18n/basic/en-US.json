@@ -1,11 +1,11 @@
 {
   "NAV": {
-    "INDEX": "Blog",
+    "INDEX": "Blog 📑",
     "RSS": "RSS",
     "SEARCH": "Search 🔍",
-    "ABOUT": "About",
-    "PUBLICATION": "Publication",
-    "RESUME":"Resume"
+    "ABOUT": "About 🏠",
+    "PUBLICATION": "Publication 🔬",
+    "RESUME":"Resume 📄"
 
   },
   "PAGINATION": {

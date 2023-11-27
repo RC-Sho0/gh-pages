@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Hoang Son-Vo Thanh',
   email: 'hoangson.vothanh@gmail.com',
   link: 'https://www.sowwn.dev',
-  description: 'A blog and news platform for those with a passion for Artificial Intelligence, machine learning, and computer vision. |AI/ML/CV Blog - Blog for student - Study with me - Code with me.|',
+  description: '|AI/ML/CV Blog - Blog for student - Code with me| \nA blog and news platform for those with a passion for Artificial Intelligence, machine learning, and computer vision.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Bangkok', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
