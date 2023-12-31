@@ -18,6 +18,12 @@ class MyDocument extends Document {
     return (
       <Html lang={config.lang} className={cn(initialColorScheme)}>
         <Head>
+          <Script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7869409911561635"
+            strategy="lazyOnload"
+            crossOrigin="anonymous"
+          />
           {config.font && config.font === 'serif'
             ? (
             <>
