@@ -17,9 +17,19 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
 
   return (
     <Container>
-      <Head>
-        <title>{meta.tags}</title>
-      </Head>
+      <div>
+        <Head>
+          <title>{meta.tags}</title>
+          <meta name="robots" content="follow, index" />
+          <meta charSet="UTF-8" />
+          {BLOG.seo.googleSiteVerification && (
+            <meta
+              name="google-site-verification"
+              content={BLOG.seo.googleSiteVerification}
+            />
+          )}
+        </Head>
+      </div>
       <div className="relative">
         <input
           type="text"
