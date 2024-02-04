@@ -5,6 +5,10 @@ import Tags from '@/components/Tags'
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import { useConfig } from '@/lib/config'
+import cn from 'classnames'
 
 const SearchLayout = ({ tags, posts, currentTag }) => {
   const [searchValue, setSearchValue] = useState('')
