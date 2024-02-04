@@ -18,6 +18,15 @@ module.exports = {
       }
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/about',
+        permanent: true,
+      },
+    ]
+  },
   transpilePackages: ['dayjs']
   // webpack: (config, { dev, isServer }) => {
   //   // Replace React with Preact only in client production build
@@ -30,16 +39,4 @@ module.exports = {
   //   }
   //   return config
   // }
-}
-
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/about',
-        permanent: true,
-      },
-    ]
-  },
 }
