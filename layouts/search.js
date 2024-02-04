@@ -5,13 +5,9 @@ import Tags from '@/components/Tags'
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import { useConfig } from '@/lib/config'
-import cn from 'classnames'
-
 const SearchLayout = ({ tags, posts, currentTag }) => {
   const [searchValue, setSearchValue] = useState('')
+  const BLOG = useConfig()
   let filteredBlogPosts = []
   if (posts) {
     filteredBlogPosts = posts.filter(post => {
@@ -25,7 +21,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
     <Container>
       <div>
         <Head>
-          <title>{meta.tags}</title>
+          <title>{post.tags}</title>
           <meta name="robots" content="follow, index" />
           <meta charSet="UTF-8" />
           {BLOG.seo.googleSiteVerification && (
