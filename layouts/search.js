@@ -3,6 +3,8 @@ import BlogPost from '@/components/BlogPost'
 import Container from '@/components/Container'
 import Tags from '@/components/Tags'
 import PropTypes from 'prop-types'
+import Head from 'next/head'
+
 
 const SearchLayout = ({ tags, posts, currentTag }) => {
   const [searchValue, setSearchValue] = useState('')
