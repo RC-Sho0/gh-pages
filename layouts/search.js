@@ -22,7 +22,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
     <Container>
       <div>
         <Head>
-          <title>{posts.tags}</title>
+          <title>{tags}</title>
           <meta name="robots" content="follow, index" />
           <meta charSet="UTF-8" />
           {BLOG.seo.googleSiteVerification && (
