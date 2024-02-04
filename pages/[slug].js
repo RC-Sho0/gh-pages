@@ -58,7 +58,7 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
               top: 0,
               behavior: 'smooth'
             })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
+            className="!fixed bottom-5 right-4 mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
           >
             ↑ {locale.POST.TOP}
           </button>
