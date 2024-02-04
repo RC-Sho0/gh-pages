@@ -18,9 +18,10 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
       return searchContent.toLowerCase().includes(searchValue.toLowerCase())
     })
   }
-  if (currentTag == "") {
-    currentTag = "Search";
-  }
+  console.log(currentTag)
+  // if (currentTag == "") {
+  //   currentTag = "Search";
+  // }
   return (
     <Container>
       <div>
