@@ -32,14 +32,14 @@ module.exports = {
   // }
 }
 
-// module.exports = {
-//   async redirects() {
-//     return [
-//       {
-//         source: '/',
-//         destination: '/about',
-//         permanent: true,
-//       },
-//     ]
-//   },
-// }
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/about',
+        permanent: true,
+      },
+    ]
+  },
+}
