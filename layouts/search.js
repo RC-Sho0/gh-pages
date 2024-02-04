@@ -17,6 +17,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
 
   return (
     <Container>
+      <meta property="og:title" content={meta.tags} />
       <div className="relative">
         <input
           type="text"
