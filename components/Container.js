@@ -21,6 +21,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         <title>{meta.title}</title>
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
         <meta name="robots" content="follow, index" />
+        <meta name="google-adsense-account" content="ca-pub-7869409911561635"/>
         <meta charSet="UTF-8" />
         {BLOG.seo.googleSiteVerification && (
           <meta

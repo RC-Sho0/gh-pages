@@ -21,7 +21,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
   if(currentTag === undefined){
     currentTag = "Search";
   }
-  console.log(currentTag)
+  // console.log(currentTag)
   return (
     <Container>
       <div>
