@@ -18,12 +18,11 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
       return searchContent.toLowerCase().includes(searchValue.toLowerCase())
     })
   }
-
   return (
     <Container>
       <div>
         <Head>
-          <title>{post.tags}</title>
+          <title>{posts.tags}</title>
           <meta name="robots" content="follow, index" />
           <meta charSet="UTF-8" />
           {BLOG.seo.googleSiteVerification && (
